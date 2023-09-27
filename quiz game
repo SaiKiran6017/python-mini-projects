@@ -1,0 +1,15 @@
+#quiz game
+print("model quiz")
+
+playing = input("Do u want to play? ").lower()
+
+if playing != "yes":
+    quit()
+
+print("Let's play the quiz!")
+
+answer = input("Who is PM of India? ").lower()
+if answer == "modi":
+    print("correct")
+else:
+    print("Incorrect")
